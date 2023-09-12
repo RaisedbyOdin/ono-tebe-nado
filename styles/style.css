@@ -1,7 +1,7 @@
   .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 105px;
+    align-items: center;
+    grid-template-columns: 1fr min-content 1fr;
     padding: 92px 50px;
     font-size: 18px;
     font-style: normal;
@@ -296,7 +296,6 @@
     display: flex;
     justify-content: space-between;
     padding: 180px 50px 90px;
-    max-width: 1440px;
     font-size: 18px;
     font-weight: 400;
   }
@@ -313,7 +312,6 @@
 
   .footer__menu-list-item {
     list-style-type: none;
-    line-height: 111%;
     text-underline-offset: 17%;
   }
 
